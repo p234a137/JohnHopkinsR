@@ -1,0 +1,13 @@
+read.csv("plants.csv")
+class(plants)
+dim(plants)
+nrow(plants)
+ncol(plants)
+object.size(plants)
+head(plants)
+head(plants,10)
+tail(plants)
+tail(plants,15)
+summary(plants)
+# how many times each value actually occurs
+table(plants$Active_Growth_Period)
